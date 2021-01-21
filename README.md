@@ -1,6 +1,6 @@
 # How To Use
 chmod +x reducer.sh
-bash reducer.sh or ./reducer.sh
+bash reducer.sh & ./reducer.sh
 
 # Warning!
 
