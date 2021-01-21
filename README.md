@@ -1,0 +1,2 @@
+# VideoSizeReducer
+bash reducer.sh
