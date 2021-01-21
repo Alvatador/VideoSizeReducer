@@ -7,7 +7,7 @@ ctrl_c() {
 echo -e "\n"
 zenity --question --text "Are you sure you want to quit?" --no-wrap --ok-label "Yes" --cancel-label "No"
 if [ $? = 0 ] ; then
-echo "Thank you use video-size-reducer-gui"
+echo "Thank you use Video Size Reducer"
 exit 
 fi
 }
