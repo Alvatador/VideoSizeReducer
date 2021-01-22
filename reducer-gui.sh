@@ -70,7 +70,7 @@ if [[ ${sec} =~ ^(exit|EXIT|EXİT|exıt) ]] ; then
         echo "Exiting"
         exit 1
     fi
-
+echo "Wait!"
 cats=$(ffmpeg -i $sec -vcodec libx264 -crf 24 output.mp4 &> /dev/null) 
 if [[ `zenity --question --text "Are you sure?"; echo $?` -eq 0 ]]; then spinlong 
 spinlong 
@@ -80,7 +80,3 @@ clear
 else
     echo "Failed..."
 fi
-
-
-
- 
