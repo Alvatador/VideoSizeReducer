@@ -79,7 +79,6 @@ clear
    echo "Saved On $PWD"
 else
     echo "Failed..."
-    sh
 fi
 
 
